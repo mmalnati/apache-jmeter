@@ -19,7 +19,7 @@ Instalación en Debian 8.8.0 (En nodo Maestro y esclavos)
 
 <h3>Modelo para el modo distribuido de stress test en Apache Jmeter 3.3</h3>
 
-![jmeter desing](https://github.com/mmalnati/apache-jmeter/blob/master/jmeter.jpeg)
+![](https://github.com/mmalnati/apache-jmeter/blob/master/jmeter.jpeg)
 
 <h3>Instalación de Apache Jmeter 3.3 (ambos nodos)</h3>
 
@@ -49,15 +49,15 @@ Revisamos los valores del archivo ip_local_port_range y lo cambiamos
 - ```sysctl -p```
 
 Editamos el archivo /etc/hosts (sólo el nodo Maestro)
-
-127.0.0.1 localhost
+```
+127.0.0.1 localhost 
 192.168.1.101  str1 stresstest-app01 stresstest-prod-app01
 192.168.1.102  str2 stresstest-app02 stresstest-prod-app02
 192.168.1.103  str3 stresstest-app03 stresstest-prod-app03
 192.168.1.104  str4 stresstest-app04 stresstest-prod-app04
 192.168.1.105  str5 stresstest-app05 stresstest-prod-app05
 192.168.1.106  str6 stresstest-app06 stresstest-prod-app06
-
+```
 <h4>Eliminamos el rpcbind</h4>
 
 - ```apt-get --purge remove rpcbind```
