@@ -88,4 +88,4 @@ In the graphical mode, generate the .jmx file for the test plan, save it, close 
 - ``` -j --jmeterlogfile <argument>: generar un  log file (.log)```
 - ``` -r --runremote: iniciar los nodos remotos (como se definió en remote_hosts)```
 
-Once it is finished, run the graphical mode, create a Listener “Summary Report” to load the .jtl file, so you can analize the results.
+Once it is finished, run the graphical mode, create a Listener __“Summary Report”__ to load the .jtl file, so you can analize the results.
