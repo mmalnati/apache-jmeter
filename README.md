@@ -87,3 +87,4 @@ En la interfaz gráfica, generar el archivo para realizar el plan de test  .jmx,
 - ``` -r --runremote: iniciar los nodos remotos (como se definió en remote_hosts)```
 
 Una vez terminado, ingresar a jmeter por gui, y crear el Listener “Summary Report” para poder leer los archivos .jtl
+
