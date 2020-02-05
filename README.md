@@ -51,16 +51,13 @@ Check the values in ip_local_port_range and then we change it
 Edit the file /etc/hosts (master node only)
 
 ```
-```127.0.0.1 localhost```
-
-```192.168.1.101  str1 stresstest-app01 stresstest-prod-app01```
-
-``` 192.168.1.102  str2 stresstest-app02 stresstest-prod-app02```
-
-``` 192.168.1.103  str3 stresstest-app03 stresstest-prod-app03```
-``` 192.168.1.104  str4 stresstest-app04 stresstest-prod-app04```
-``` 192.168.1.105  str5 stresstest-app05 stresstest-prod-app05```
-```192.168.1.106  str6 stresstest-app06 stresstest-prod-app06
+127.0.0.1 localhost
+192.168.1.101  str1 stresstest-app01 stresstest-prod-app01
+192.168.1.102  str2 stresstest-app02 stresstest-prod-app02
+192.168.1.103  str3 stresstest-app03 stresstest-prod-app03
+192.168.1.104  str4 stresstest-app04 stresstest-prod-app04
+192.168.1.105  str5 stresstest-app05 stresstest-prod-app05
+192.168.1.106  str6 stresstest-app06 stresstest-prod-app06
 ```
 
 <h4>Delete rpcbind package</h4>
