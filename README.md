@@ -81,11 +81,11 @@ Edit the file /etc/hosts (master node only)
 
 In the graphical mode, generate the .jmx file for the test plan, save it, close the aplication, and then run the following command:
 
- ```./jmeter.sh -n -t /root/test-plan/plan_test.jmx -l /root/resultados.jtl -j /root/runlog.log -r```
-- ``` -n --nongui: corre JMeter en modo consola```
-- ``` -t --testfile <argument>: el archivo .jmx que se usará para correr el stress test```
-- ``` -l --logfile <argument>: el archivo que guarda los log samples (.jtl)```
-- ``` -j --jmeterlogfile <argument>: generar un  log file (.log)```
-- ``` -r --runremote: iniciar los nodos remotos (como se definió en remote_hosts)```
+ ```./jmeter.sh -n -t /root/test-plan/plan_test.jmx -l /root/results.jtl -j /root/runlog.log -r```
+- ``` -n --nongui: run JMeter in console mode```
+- ``` -t --testfile <argument>: this is the file with the extension .jmx that will use for the test```
+- ``` -l --logfile <argument>: this file will save the log samples (.jtl)```
+- ``` -j --jmeterlogfile <argument>: generate a log file (.log)```
+- ``` -r --runremote: start the remote nodes (as was defined in the remote_hosts)```
 
 Once it is finished, run the graphical mode, create a Listener __“Summary Report”__ to load the .jtl file, so you can analize the results.
